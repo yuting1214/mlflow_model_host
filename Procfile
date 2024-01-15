@@ -1,1 +1,1 @@
-web: mlflow models serve -m "runs:/4b50598b930148b89d5cbfe7c733afcd/iris_model"
+web: mlflow models serve -m "runs:/1932e3c85d654ec1856320acb1be40ba/iris_model" --port $PORT
